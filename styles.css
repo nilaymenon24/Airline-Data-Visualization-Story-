@@ -1,0 +1,39 @@
+:root {
+    --text-width: 900px;
+    background: white;
+}
+
+section {
+    width: var(--text-width);
+    margin: auto;
+}
+
+.hero-title {
+    font-size: 6rem;
+    text-align: center;
+}
+
+.hero-author {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.751);
+    text-align: center;
+}
+
+.chart-holder {
+    text-align: center;
+}
+
+.section-text {
+    width: var(--text-width);
+    margin: auto;
+}
+.section-title {
+    width: var(--text-width);
+    margin: auto;
+    text-align: center;
+}
+
+svg {
+    border: 2px solid black;
+    background: white;
+}
